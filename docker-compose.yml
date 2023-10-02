@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  strapi:
+    container_name: 'porpor'
+    image: 'porpor/strapi4'
+    ports:
+      - 3000:1337
+    restart: 'unless-stopped'
